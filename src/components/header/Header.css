@@ -1,0 +1,83 @@
+.header {
+  box-shadow: 0px 4px 10px 0px #00000040;
+  background: #000000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 100px 0 72px;
+  column-gap: 116px;
+  flex-wrap: wrap;
+}
+
+.header ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header nav ul:first-child {
+  gap: 37px;
+  padding: 12px 0 13px 0;
+}
+
+.header ul:last-child {
+  gap: 21px;
+  padding: 15px 0 10px 0;
+}
+
+.header ul:last-child li {
+  display: flex;
+  align-items: center;
+  column-gap: 2px;
+}
+
+.header .registerIcon {
+  max-width: 9px;
+  width: 100%;
+  max-height: 9px;
+  height: 100%;
+}
+
+.header .loginIcon {
+  max-width: 10px;
+  width: 100%;
+  max-height: 11px;
+  height: 100%;
+}
+
+ul li {
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 12.19px;
+  color: #ffffff;
+}
+
+@media (max-width: 767px) {
+  .header nav ul:first-child {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ffffff;
+  }
+
+  .header ul:last-child {
+    padding-top: 10px;
+  }
+}
+
+@media (max-width: 767px) {
+.header {
+  padding: 0 30px 0 30px;
+}
+}
+
+@media (max-width: 413px) {
+.header {
+  padding: 0 15px 0 15px;
+}
+.header nav ul:first-child {
+  gap: 27px;
+}
+
+.header ul:last-child {
+  gap: 21px;
+}
+}
